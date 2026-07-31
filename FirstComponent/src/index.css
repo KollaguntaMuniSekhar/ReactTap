@@ -1,0 +1,34 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: black;
+  font-size:monospace;
+  color:aqua;
+  
+}
+.card{
+  border:5px solid aqua;
+  padding:40px;
+  width:700px;
+  margin:200px;
+  border-radius: 20px;
+
+}
+nav{
+  font-size:large;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading{
+  font-family:sans-serif;
+  color:green;
+  font-size: 50px;
+}
+.listItems{
+  display:flex;
+  flex-direction:column;
+  font-size:45px;
+}
